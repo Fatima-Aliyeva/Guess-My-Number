@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Arsenal+SC:ital,wght@0,400;0,700;1,400;1,700&family=Wittgenstein:ital,wght@0,400..900;1,400..900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: lightsteelblue;
+  font-family: "Wittgenstein", serif;
+}
+header {
+  height: 40vh;
+}
+h1 {
+  font-family: "Arsenal SC", sans-serif;
+  text-align: center;
+  font-size: 55px;
+  margin-top: 40px;
+}
+.number {
+  background-color: cadetblue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  width: 110px;
+  margin-left: 46%;
+  margin-top: 30px;
+  font-size: 70px;
+}
+.first-line {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  align-items: center;
+}
+.again {
+  background-color: cadetblue;
+  color: black;
+  font-size: 16px;
+  padding: 15px 20px;
+  border-radius: 10px;
+  border: none;
+  font-family: "Wittgenstein", serif;
+  cursor: pointer;
+}
+main {
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.guess {
+  background: none;
+  border: 4px solid cadetblue;
+  width: 250px;
+  height: 80px;
+  outline: none;
+  font-size: 40px;
+}
+.btn {
+  cursor: pointer;
+  border: none;
+  background-color: cadetblue;
+  margin-top: 10px;
+  font-size: 30px;
+  padding: 10px;
+  border-radius: 8px;
+  font-family: "Wittgenstein", serif;
+}
+.right {
+  font-size: 20px;
+}
